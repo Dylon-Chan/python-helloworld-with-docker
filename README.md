@@ -38,7 +38,7 @@ To run this application, you need:
     systemctl start docker
     ```
 5. Run `systemctl status docker` to verify that the Docker service is active and running. Then, press the Q key to exit the pager and return to the command prompt.<br>
-![ec2-docker-status](https://github.com/Dylon-Chan/python-helloworld-with-docker/blob/main/ec2-docker-status.png)
+![ec2-docker-status](https://github.com/Dylon-Chan/python-helloworld-with-docker/blob/main/photos/ec2-docker-status.png)
 
 ### Building the Docker Image
 1. Clone this repository into your EC2 instance.
@@ -75,7 +75,7 @@ docker run -d -p 8080:8080 helloworldapp:latest
     ```
 Both methods allow you to see a message that says "Hello World from Python!" and the elapsed time since the server was started.
 <br>
-![helloworld-from-python](https://github.com/Dylon-Chan/python-helloworld-with-docker/blob/main/helloworld-from-python.png)
+![helloworld-from-python](https://github.com/Dylon-Chan/python-helloworld-with-docker/blob/main/photos/helloworld-from-python.png)
 
 ## Troubleshooting
 If you encounter any problems when following these instructions, check the following:
